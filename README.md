@@ -127,7 +127,7 @@ You need access token before you proceed with **STK Push**. See the above on how
 	},
 ```
 
-### Response after a successfuly stk initiation
+### Response after a successful stk initiation
 
 ```JSON
 {
