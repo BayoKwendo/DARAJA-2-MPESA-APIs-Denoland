@@ -210,7 +210,7 @@ MPESA use this url to validate your payments based on your logic. If everything 
 
 ```TypeScript
    response.body = {
-			           ResultCode: 0,
+			            ResultCode: 0,
 						ResultDesc: 'Accepted',
                    };
 ```
@@ -219,7 +219,7 @@ To reject return this response.
 
 ```TypeScript
    response.body = {
-			           ResultCode: 1,
+			            ResultCode: 1,
 						ResultDesc: 'Rejected',
                    };
 ```
