@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ngombe_loan:
+    restart: always
+    build: .
+    container_name: ngombe_loan
+    ports:
+      - "2027:2027"
